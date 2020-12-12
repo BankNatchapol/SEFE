@@ -1,0 +1,124 @@
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+
+.listOfUsers{
+    width: 30%;
+    height: 100%;
+    
+    border-right: 1px solid #ccc;
+}
+.chatArea{
+    width: 70%;
+    height: 100%;
+    
+    position: relative;
+}
+.chatHeader{
+    position: fixed;
+    width: 70%;
+    height: 40px;
+    background: #e2e0e0;
+    text-align: center;
+    line-height: 40px;
+    
+    font-weight: bold;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.chatControls{
+    
+    display: flex;
+    position: fixed;
+    width: 70%;
+    height: 50px;
+    bottom: 0;
+}
+.chatControls input{
+    width: 90%;
+}
+.chatControls button{
+    width: 10%;
+    margin-top:100px;
+}
+
+.displayName{
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top:30px;
+}
+
+.displayName.active{
+    background: #ccc;
+}
+
+.displayName .displayPic{
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.displayName .displayPic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.messageStyle{
+    background: skyblue;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 100px 10px 50px;
+    display: inline-block;
+    
+}
+
+.messageSections{
+    margin-top:50px;
+    height: 450px;
+    width: 100%;
+    overflow: auto;
+    position: relative;
+    top: 40px;
+    
+}
+
+.onlineStatus{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background: #16e316;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 #16e316;
+}
+.onlineStatus.off{
+    background: green;
+    box-shadow: 0 0 0 0;
+}
+
+.displayName:hover {
+background-color: #ee7548;
+}
+.displayName:visited {
+    background-color: blue;
+    }
+.displayName:focus {
+    background-color: #727272;
+    }
+
+.inform  {
+width:100%;
+padding: 10px 0px 0px 0px;
+}
+.inform button {
+    width:20%;
+}

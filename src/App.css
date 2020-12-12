@@ -1,0 +1,347 @@
+html, body, #root {
+  height: 100%
+}
+._loading_overlay_wrapper {
+  height: 100%
+}
+.App {
+  text-align: center;
+  width:100%;
+  height:100%;
+}
+
+.Form {   /*กรอบ dd dinner dog*/
+  
+  border-Width: 3px;
+  
+  margin: 20px;
+  padding: 20px;
+}
+
+.Button {
+  font-size: 20px;
+  width: 150px;
+  height: auto;
+  margin-right: 80px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.Divider {
+  margin-top: 10px;
+  background-color: #d0d0d0;
+}
+
+.Title {
+  margin-top: 25px;
+  font-family:Poetsen One;
+  font-size: 50px;
+  color: #888888;
+  
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #000000;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#register {
+  
+  border-bottom: 1px solid #646464;
+  padding: 0 0 4px;
+  transition: 0.5s
+  
+}
+
+#register:hover {
+  border-bottom: 1px solid #646464;
+  padding: 0 8px 4px 8px;
+  
+}
+
+#login_button {
+  background: #ee7458;
+  border: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  transition: 0.5s;
+}
+
+#login_button:hover{
+  background: #ffffff;
+  color: #000000;
+  border: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+#forgot_password {
+  border-bottom: 1px solid #646464;
+  padding:  0 0 4px;
+  transition: 0.5s;
+}
+
+#forgot_password:hover{
+  border-bottom: 1px solid #646464;
+  padding: 0 8px 4px 8px;
+}
+
+#DD_veter{
+  height: 35px;
+  font-size: 15px ;
+  border-radius: 30px;
+  background-color: #7FA94B;
+  border-color: #ffffff;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  transition: 0.5s;
+}
+
+#DD_veter:hover{
+  height: 35px;
+  font-size: 15px ;
+  border-radius: 30px;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #ffffff;
+}
+
+#Image1 {
+  margin-top:-95px ;
+  margin-right: 425px;
+}
+
+#Image2 {
+  margin-top: -140px;
+  margin-right: 545px;
+}
+
+#Image3 {
+  margin-top: -185px;
+  margin-right: 700px;
+}
+
+#Image4 {
+  margin-top: -230px;
+  margin-right: 300px;
+}
+
+#email {
+  border-width: 3px;
+  border-radius: 30px;
+  border-color:#727272 ;
+}
+
+#password {
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+#confirm {
+  border-width: 3px;
+  border-radius: 30px;
+}
+
+#nickname {
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: #727272 ;
+}
+
+#PhoneNumber {
+  border-width: 3px;
+  border-radius: 30px;
+  border-color:#727272 ;
+}
+
+#submit_button {
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-left: 500px;
+  width: 150px;
+  height: 40px;
+  background-color:#ee7458 ;
+  border: #ffffff;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  transition: 0.5s;
+  
+}
+
+#submit_button:hover{
+  border-radius: 30px;
+  margin-top: 25px;
+  margin-left: 500px;
+  width: 150px;
+  height: 40px;
+  background-color:#ffffff;
+  border: #ffffff;
+  color:#000000 ;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+#login_button2 {
+  border-radius: 30px;
+  margin-top: -50px;
+  margin-right: 480px;
+  width: 150px;
+  height: 40px;
+  background-color: #ee7458;
+  border: #ffffff;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+  transition: 0.5s;
+}
+
+#login_button2:hover {
+  border-radius: 30px;
+  margin-top: -50px;
+  margin-right: 480px;
+  width: 150px;
+  height: 40px;
+  color: #000000;
+  background-color: #ffffff;
+  border: #ffffff;
+  box-shadow: 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+}
+
+#Image5 {
+  margin-top: -1060px;
+  margin-left: 800px;
+  
+}
+
+#Image6 {
+  transform: rotate(180deg);
+  margin-top: -200px;
+  margin-left: -1250px;
+  
+}
+
+#Button_clear {
+  margin-left: 500px;
+  margin-top: -20px;
+  
+  
+}
+
+#Image7 {
+  height: 20px;
+  
+  
+}
+
+#Box_gender {
+  border-radius: 30px;
+  border: 3px solid #727272;
+  font-family: Quicksand;
+  outline: none;
+}
+
+#Box_age {
+  border-radius: 30px;
+  border: 3px solid #727272;
+  outline: none;
+}
+
+#Box_breeds {
+  border-radius: 30px;
+  border: 3px solid #727272;
+  outline: none;
+}
+
+#Box_location {
+  border-radius: 30px;
+  border: 3px solid #727272;
+  outline: none;
+}
+
+#Box_about {
+  border-radius: 30px;
+  border: 3px solid #727272;
+  outline: none;
+}
+
+#Box_save2 {
+  margin-left: 350px;
+  margin-top: 30px;
+
+}
+
+#Box_logout {
+  margin-left: 185px;
+  margin-top: 30px;
+}
+
+#Box_name {
+  margin-top: 20px;
+  border-radius: 30px;
+  outline: none;
+}
+
+.linktool .tooltip{
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+ 
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  width: 120px;
+  margin-left: -93px; /* Use half of the width (120/2 = 60), to center the tooltip */
+  margin-top: 70px;
+  
+  
+}
+
+
+.linktool .tooltip::after  {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.linktool:hover .tooltip{
+visibility: visible;
+}
+.home .linktool {
+  background-color: red;
+  }
