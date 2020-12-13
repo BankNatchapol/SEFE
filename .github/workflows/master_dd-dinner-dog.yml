@@ -23,7 +23,7 @@ jobs:
     - name: npm install, build, and test
       run: |
         npm install
-        npm run build 
+        CI= npm run buildnpm run build 
 
 
     - name: 'Deploy to Azure Web App'
